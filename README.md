@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/koheisg/twitty.svg?style=svg)](https://circleci.com/gh/koheisg/twitty)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
