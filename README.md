@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/koheisg/twitty.svg?style=svg)](https://circleci.com/gh/koheisg/twitty)
 [![Code Climate](https://codeclimate.com/github/koheisg/twitty/badges/gpa.svg)](https://codeclimate.com/github/koheisg/twitty)
+[![Test Coverage](https://codeclimate.com/github/koheisg/twitty/badges/coverage.svg)](https://codeclimate.com/github/koheisg/twitty/coverage)
 
 # README
 
