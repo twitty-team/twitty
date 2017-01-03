@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: jack
+  # password: secret
+  password_digest: $2a$04$lIOcxryieUj5IrofH3sG6.4Xzpzvz97jvGUDWOEg.1NIjt1HddSqe
+
+two:
+  id: 2
+  name: koheisg
+  # password: secret
+  password_digest: $2a$04$lIOcxryieUj5IrofH3sG6.4Xzpzvz97jvGUDWOEg.1NIjt1HddSqe
