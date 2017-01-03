@@ -106,17 +106,3 @@ Style/NumericLiterals:
 Style/SpaceInsideBrackets:
   Exclude:
     - 'config/environments/production.rb'
-
-# Offense count: 41
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles, ConsistentQuotesInMultiline.
-# SupportedStyles: single_quotes, double_quotes
-Style/StringLiterals:
-  Exclude:
-    - 'bin/spring'
-    - 'config/environments/production.rb'
-    - 'config/puma.rb'
-    - 'config/routes.rb'
-    - 'db/schema.rb'
-    - 'test/controllers/tweets_controller_test.rb'
-    - 'test/controllers/users_controller_test.rb'
