@@ -1,5 +1,5 @@
 exclude:
-  - "./app/assets/stylesheets/scaffold.scss"
+  - "./app/assets/stylesheets/scaffolds.scss"
 
 # Default application configuration that all configurations inherit from.
 
