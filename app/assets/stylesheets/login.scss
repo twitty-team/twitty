@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--field {
+    border-bottom: solid 1px #000;
+    margin-bottom: 5px;
+  }
+
+  &--button {
+    border: solid 1px #000;
+    margin-bottom: 5px;
+  }
+}
