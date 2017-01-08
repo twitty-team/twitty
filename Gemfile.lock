@@ -102,6 +102,7 @@ GEM
       mini_portile2 (~> 2.1.0)
     parser (2.3.3.1)
       ast (~> 2.2)
+    pg (0.19.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -199,6 +200,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   listen
+  pg
   pry
   puma
   rails
