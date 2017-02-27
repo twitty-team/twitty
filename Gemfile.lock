@@ -51,7 +51,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.5)
     coveralls (0.8.19)
       json (>= 1.8, < 3)
       simplecov (~> 0.12.0)
