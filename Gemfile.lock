@@ -69,7 +69,7 @@ GEM
       parser
       temple (>= 0.7.0)
       tilt
-    ffi (1.9.17)
+    ffi (1.9.18)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     haml_parser (0.4.1)
