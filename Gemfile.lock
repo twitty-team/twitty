@@ -70,8 +70,8 @@ GEM
       temple (>= 0.7.0)
       tilt
     ffi (1.9.18)
-    globalid (0.3.7)
-      activesupport (>= 4.1.0)
+    globalid (0.4.0)
+      activesupport (>= 4.2.0)
     haml_parser (0.4.1)
     i18n (0.8.1)
     jbuilder (2.6.3)
