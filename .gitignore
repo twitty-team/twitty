@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore bundler config.
+/.envrc
+
 # node_modules
 /node_modules
 
