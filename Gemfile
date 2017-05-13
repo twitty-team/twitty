@@ -14,6 +14,7 @@ gem 'uglifier'
 
 gem 'haml-rails'
 gem 'faml'
+gem 'webpacker'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks'
