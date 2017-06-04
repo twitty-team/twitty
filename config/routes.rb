@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :hogehoges
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get :login, to: "sessions#new", as: "new_login"
   post :login, to: "sessions#create", as: "login"
