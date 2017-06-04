@@ -2,21 +2,14 @@ version: 2
 jobs:
   build:
     docker:
-      - image: ruby:2.3
-      - image: node:latest
+      - image: guzart/rails-app:020407070021
       - image: postgres:9.4.1
         environment:
           POSTGRES_USER: root
 
-    working_directory: /home/ubuntu/cci-demo-rails
+    working_directory: /app
     steps:
       - checkout
-      - run: apt-get update
-      - run: apt-get -y install nodejs npm
-      - run: npm cache clean
-      - run: npm install n -g
-      - run: n stable
-      - run: ln -sf /usr/local/bin/node /usr/bin/node
       - run: npm install
       - run: bundle install
       - run: bundle exec rake db:create db:schema:load --trace
