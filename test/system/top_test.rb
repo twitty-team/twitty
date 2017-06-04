@@ -4,6 +4,6 @@ class TopTest < ApplicationSystemTestCase
   test "visiting the root" do
     visit root_url
 
-    assert_selector "h1", text: "Top"
+    assert_selector "h1", text: "Twitty"
   end
 end
