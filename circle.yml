@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: guzart/rails-app:020407070021
+      - image: koheisg/twitty:latest
 
     working_directory: /app
     steps:
