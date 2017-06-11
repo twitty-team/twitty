@@ -7,8 +7,19 @@ jobs:
     working_directory: /app
     steps:
       - checkout
+      - type: cache-restore
+        key: dependency-cache-{{ checksum "package.json"  }}
       - run: npm install
-      - run: bundle install
+      - type: cache-save
+        key: dependency-cache-{{ checksum "package.json"  }}
+        paths:
+          - .node_modules
+      - type: cache-restore
+        key: twitty-{{ checksum "Gemfile.lock"  }}
+      - run: bundle install --path vendor/bundle
+      - type: cache-save
+        key: twitty-{{ checksum "Gemfile.lock"  }}
+        paths:
+          - vendor/bundle
       - run: bundle exec rake db:create db:schema:load --trace
-      - run: bundle exec rake db:migrate
       - run: bundle exec rake test
