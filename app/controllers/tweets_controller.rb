@@ -1,4 +1,5 @@
 class TweetsController < ApplicationController
+  before_action :require_login, except: :index
   before_action :set_tweet, only: [:show, :edit, :update, :destroy]
 
   def index
