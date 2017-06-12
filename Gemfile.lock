@@ -75,6 +75,8 @@ GEM
       temple (>= 0.7.0)
       tilt
     ffi (1.9.18)
+    foreman (0.84.0)
+      thor (~> 0.19.1)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     haml (5.0.1)
@@ -231,6 +233,7 @@ DEPENDENCIES
   capybara
   coveralls
   faml
+  foreman
   haml-rails
   jbuilder
   listen
