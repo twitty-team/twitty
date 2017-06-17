@@ -6,3 +6,7 @@ scss:
 
 haml:
   config_file: .haml-lint.yml
+
+eslint:
+    enabled: true
+    ignore_file: .eslintignore
