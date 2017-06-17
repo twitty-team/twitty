@@ -10,9 +10,6 @@
 # Ignore bundler config.
 /.envrc
 
-# node_modules
-/node_modules
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -29,3 +26,5 @@
 
 # Ignore encrypted secrets key file.
 config/secrets.yml.key
+/public/packs
+/node_modules

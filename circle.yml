@@ -8,10 +8,10 @@ jobs:
     steps:
       - checkout
       - type: cache-restore
-        key: dependency-cache-{{ checksum "package.json"  }}
-      - run: npm install
+        key: dependency-cache-{{ checksum "yarn.lock"  }}
+      - run: yarn install
       - type: cache-save
-        key: dependency-cache-{{ checksum "package.json"  }}
+        key: dependency-cache-{{ checksum "yarn.lock"  }}
         paths:
           - .node_modules
       - type: cache-restore
