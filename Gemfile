@@ -54,7 +54,6 @@ group :development do
 end
 
 group :test do
-  gem 'coveralls', require: false
   gem 'codecov', require: false
 end
 
