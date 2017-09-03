@@ -59,7 +59,7 @@ GEM
       json
       simplecov
       url
-    coderay (1.1.1)
+    coderay (1.1.2)
     concurrent-ruby (1.0.5)
     docile (1.1.5)
     erubi (1.6.1)
