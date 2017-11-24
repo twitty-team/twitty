@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  force_ssl if: :ssl_configured?
   helper_method :login?
 
   def current_user
@@ -20,9 +19,5 @@ class ApplicationController < ActionController::Base
 
   def _current_user
     @_current_user ||= User.find(session[:user_id])
-  end
-
-  def ssl_configured?
-    Rails.env.production?
   end
 end
