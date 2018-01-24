@@ -26,6 +26,7 @@ gem 'bcrypt'
 
 group :production do
   gem 'rails_12factor'
+  gem 'newrelic_rpm'
   # Use postgres as the database for Active Record
   gem 'pg'
 end
