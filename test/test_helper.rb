@@ -1,10 +1,8 @@
 ENV['RAILS_ENV'] ||= 'test'
-require 'simplecov'
-SimpleCov.start 'rails'
 
-if ENV['CODECOV_TOKEN']
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+if ENV['CI']
+  require 'simplecov'
+  SimpleCov.start 'rails'
 end
 
 require File.expand_path('../../config/environment', __FILE__)
